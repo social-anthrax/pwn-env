@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pwn-env"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pwntools = "^4.9.0"
+angr = "^9.2.51"
+monkeyhex = "^1.7.4"
+pandas = "^2.1.0"
+tabulate = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.11.0"
+ipykernel = "^6.23.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

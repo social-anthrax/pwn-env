@@ -1,0 +1,6 @@
+# *
+# !.git
+# !.gitignore
+# !/poetry.toml
+# !/poetry.lock
+# !/pyproject.toml
