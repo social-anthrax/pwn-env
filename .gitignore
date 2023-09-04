@@ -1,6 +1,5 @@
-# *
-# !.git
-# !.gitignore
-# !/poetry.toml
-# !/poetry.lock
-# !/pyproject.toml
+*
+!/.gitignore
+!/poetry.toml
+!/pyproject.toml
+!/README.md

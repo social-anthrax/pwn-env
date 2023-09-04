@@ -2,22 +2,26 @@
 name = "pwn-env"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["social_anthrax <me@anthrax.social>"]
 readme = "README.md"
 packages = []
 
 [tool.poetry.dependencies]
-python = "~3.11"
+python = "^3.11"
 pwntools = "^4.9.0"
 angr = "^9.2.51"
 monkeyhex = "^1.7.4"
-pandas = "^2.1.0"
-tabulate = "^0.9.0"
-
-
-[tool.poetry.group.dev.dependencies]
 ipython = "^8.11.0"
 ipykernel = "^6.23.3"
+
+# Honestly most of the time we don't want to touch pandas anyways
+requests = "^2.31.0"
+[tool.poetry.group.data_analysis]
+optional = true
+
+[tool.poetry.group.data_analysis.dependencies]
+pandas = "^2.1.0"
+tabulate = "^0.9.0"
 
 [build-system]
 requires = ["poetry-core"]
