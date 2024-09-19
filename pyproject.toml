@@ -14,11 +14,13 @@ monkeyhex = "^1.7.4"
 ipython = "^8.11.0"
 ipykernel = "^6.23.3"
 pyelftools = "0.29"
-
-# Honestly most of the time we don't want to touch pandas anyways
 requests = "^2.31.0"
 ropper = "^1.13.8"
+ropgadget = "^7.4"
+jupyter = "^1.0.0"
+
 [tool.poetry.group.data_analysis]
+# Honestly most of the time we don't want to touch pandas anyways
 optional = true
 
 [tool.poetry.group.data_analysis.dependencies]
