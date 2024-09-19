@@ -3,3 +3,5 @@
 !/poetry.toml
 !/pyproject.toml
 !/README.md
+!/docker_ubuntu
+!/docker_ubuntu/dockerfile

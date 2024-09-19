@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+
+
+RUN apt update 
+RUN yes | unminimize 
+RUN apt-get install man-db -y
+RUN apt-get install build-essential -y
+
