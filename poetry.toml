@@ -1,2 +1,3 @@
-[installer]
-no-binary = ["capstone"]
+[virtualenvs]
+in-project = false
+create = true

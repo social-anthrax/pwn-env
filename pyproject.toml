@@ -5,6 +5,7 @@ description = ""
 authors = ["social_anthrax <me@anthrax.social>"]
 readme = "README.md"
 packages = []
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -13,11 +14,12 @@ angr = "^9.2.51"
 monkeyhex = "^1.7.4"
 ipython = "^8.11.0"
 ipykernel = "^6.23.3"
-pyelftools = "0.29"
+pyelftools = "^0.29"
 requests = "^2.31.0"
 ropper = "^1.13.8"
 ropgadget = "^7.4"
 jupyter = "^1.0.0"
+z3 = "^0.2.0"
 
 [tool.poetry.group.data_analysis]
 # Honestly most of the time we don't want to touch pandas anyways
